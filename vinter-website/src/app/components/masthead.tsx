@@ -20,7 +20,7 @@ const Masthead: React.FC = () => {
             <div>
                <h1 className="text-9xl sm:text-6xl md:text-7xl lg:text-9xl font-bold uppercase tracking-wide text-gray-900 dark:text-gray-100 leading-none mb-6 sm:mb-8">
                 who am i?
-            </h1> 
+               </h1> 
             </div>
             {/* Grid Content */}
 
