@@ -37,7 +37,7 @@ export default function MusicCard() {
       audio.removeEventListener("timeupdate", handleTimeUpdate);
       audio.removeEventListener("loadedmetadata", handleTimeUpdate);
     };
-  }, [currentIndex]);
+  }, [currentIndex, currentSong.duration]);
 
   const handleNext = () => {
     setProgress(0);
